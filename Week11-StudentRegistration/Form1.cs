@@ -51,5 +51,15 @@ namespace Week11_StudentRegistration
         {
 
         }
+
+        private void rbFullTime_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpRegDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

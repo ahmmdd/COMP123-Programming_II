@@ -83,6 +83,7 @@
             this.dtpRegDate.Name = "dtpRegDate";
             this.dtpRegDate.Size = new System.Drawing.Size(200, 20);
             this.dtpRegDate.TabIndex = 3;
+            this.dtpRegDate.ValueChanged += new System.EventHandler(this.dtpRegDate_ValueChanged);
             // 
             // label3
             // 
@@ -124,6 +125,7 @@
             this.rbFullTime.TabStop = true;
             this.rbFullTime.Text = "Full Time";
             this.rbFullTime.UseVisualStyleBackColor = true;
+            this.rbFullTime.CheckedChanged += new System.EventHandler(this.rbFullTime_CheckedChanged);
             // 
             // rbPartTime
             // 

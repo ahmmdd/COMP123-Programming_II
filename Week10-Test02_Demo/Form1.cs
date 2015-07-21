@@ -61,5 +61,10 @@ namespace Week10_Test02_Demo
 
 
         }
+
+        private void txtCustomerName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
